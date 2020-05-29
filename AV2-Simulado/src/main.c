@@ -280,9 +280,8 @@ void draw_button(t_but but){
 
 int process_touch(t_but botoes[], touchData touch, uint32_t n){
   for(int i = 0; i < n; i++) {
-    if(touch.x >= botoes[i].x -botoes[i].width/2  && touch.x <= botoes[i].x + botoes[i].width /2)
-    if(touch.y >= botoes[i].y  ){
-      if(touch.y <= botoes[i].y + botoes[i].height){
+    if(touch.x >= botoes[i].x -botoes[i].width/2  && touch.x <= botoes[i].x + botoes[i].width /2){
+      if(touch.y >= botoes[i].y - botoes[i].height/2 && touch.y <= botoes[i].y + botoes[i].height/2  ){
         return i;
       }
     }
