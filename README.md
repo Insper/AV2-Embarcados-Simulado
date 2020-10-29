@@ -32,7 +32,7 @@ Vocês devem gravar um vídeo do firmware funcionando na placa para submeter o p
   - ON/OFF: Liga e desliga a aquisição 
   - UP: Aumenta a escala vertical do gráfico
   - DOWN: Diminui a escala vertical do gráfico
-  - FIR: Liga e desliga a filtragem do dado
+  - ~FIR: Liga e desliga a filtragem do dado~ (20b)
 - Quando aquisição estiver ativada, exibir o icone de `REC`:
   - [![](doc/icon.png)](doc/icon.png)
 
